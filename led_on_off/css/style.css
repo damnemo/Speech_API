@@ -1,0 +1,102 @@
+body {
+  background-color: #6C6F92;
+  color: black;
+}
+
+
+.title {
+  font-weight: bold;
+  text-align: left;
+  color: #0B27F3;
+  font-family: Tahoma;
+  font-size: 35.0px;
+  line-height: 25px;
+  text-shadow: 2.0px 2.0px 2.0px #FFFFFF;
+}
+
+
+* {
+  text-align: left;
+  font-weight: normal;
+  font-family: Tahoma,Verdana, Arial, sans-serif;
+  font-size: 20.0px;
+}
+
+
+a:link {
+  color:#FFF;
+  text-decoration: none;
+}
+a:visited {
+  color:#0B27F3;
+}
+a:hover {
+  color:#EC122D;
+}
+
+.center {
+  padding: 10px;
+  text-align: center;
+}
+
+.right {
+  float: right;
+}
+
+.final {
+  color: white;
+}
+
+.interim {
+  color: black;
+}
+
+.led {
+  padding: 20px;
+}
+
+#info {
+  font-size: 20px;
+  text-align: left;
+  color: #FFF;
+  padding: 20px;
+  visibility: hidden;
+}
+
+
+#container {
+  width: 600px;
+}
+
+#results {
+  word-wrap: break-word;
+  width: 500px;
+  font-size: 30px;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  text-align: left;
+  min-height: 51px;
+  padding-left: 10px;
+  float: left;
+}
+
+#mic {
+  float: right;
+}
+
+#start_button {
+  border: 0;
+  /*background-color:transparent;*/
+  padding: 0;
+}
+
+#div_led {
+  float: left;
+}
+
+#div_link {
+  float: right;
+  position: relative;
+  bottom: -60px;
+  right: -50px;
+}
